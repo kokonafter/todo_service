@@ -26,8 +26,8 @@ TODO Service — это REST API для управления списком за
    ```bash
    uvicorn main:app --reload
 4. **Откройте документацию API:**
-Swagger UI: http://127.0.0.1:8000/docs
-Redoc: http://127.0.0.1:8000/redoc
+- **Swagger UI:** http://127.0.0.1:8000/docs
+- **Redoc:** http://127.0.0.1:8000/redoc
 
 ---
 
