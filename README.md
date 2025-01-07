@@ -76,12 +76,12 @@ POST /items
 ## Структура проекта
 ```
 todo_app/
-├── main.py         # Основной файл приложения
-├── models.py       # Модели базы данных
-├── database.py     # Конфигурация базы данных
-├── requirements.txt # Зависимости проекта
-├── Dockerfile      # Конфигурация Docker
-└── data/           # Данные SQLite
+├── main.py           # Основной файл приложения
+├── models.py         # Модели базы данных
+├── database.py       # Конфигурация базы данных
+├── requirements.txt  # Зависимости проекта
+├── Dockerfile        # Конфигурация Docker
+└── data/             # Данные SQLite
 
    
 
