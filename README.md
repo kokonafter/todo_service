@@ -56,24 +56,19 @@ Redoc: http://127.0.0.1:8000/redoc
 - **Пример создания задачи**
 POST /items
 Тело запроса:
-{
-  "title": "Новая задача",
-  "description": "Описание задачи",
-  "completed": false
-}
+   ```json
+   {
+     "title": "Новая задача",
+     "description": "Описание задачи",
+     "completed": false
+   }
 Ответ:
-{
-  "id": 1,
-  "title": "Новая задача",
-  "description": "Описание задачи",
-  "completed": false
-}
+
+    {
+      "title": "Новая задача",
+      "description": "Описание задачи",
+      "completed": false
+    }
 
 ## Структура проекта
-todo_app/
-├── main.py         # Основной файл приложения
-├── models.py       # Модели базы данных
-├── database.py     # Конфигурация базы данных
-├── requirements.txt # Зависимости проекта
-├── Dockerfile      # Конфигурация Docker
-└── data/           # Данные SQLite
+todo_app/ ├── database.py # Конфигурация базы данных ├── Dockerfile # Конфигурация Docker ├── main.py # Основной файл приложения ├── models.py # Модели базы данных ├── README.md # Документация проекта ├── requirements.txt # Зависимости проекта │ ├── data/ # Папка для базы данных │ └── todo.db # Файл SQLite │ └── pycache/ # Скомпилированные файлы Python ├── database.cpython-39.pyc ├── main.cpython-39.pyc └── models.cpython-39.pyc
