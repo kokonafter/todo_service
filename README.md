@@ -63,12 +63,32 @@ POST /items
      "completed": false
    }
 Ответ:
-
+   '''json
+   
     {
-      "title": "Новая задача",
-      "description": "Описание задачи",
-      "completed": false
+    "title": "Новая задача",
+    "description": "Описание задачи",
+    "completed": false
     }
 
+---
+
 ## Структура проекта
-todo_app/ ├── database.py # Конфигурация базы данных ├── Dockerfile # Конфигурация Docker ├── main.py # Основной файл приложения ├── models.py # Модели базы данных ├── README.md # Документация проекта ├── requirements.txt # Зависимости проекта │ ├── data/ # Папка для базы данных │ └── todo.db # Файл SQLite │ └── pycache/ # Скомпилированные файлы Python ├── database.cpython-39.pyc ├── main.cpython-39.pyc └── models.cpython-39.pyc
+todo_app/
+- database.py      — Конфигурация базы данных
+- Dockerfile       — Конфигурация Docker
+- main.py          — Основной файл приложения
+- models.py        — Модели базы данных
+- README.md        — Документация проекта
+- requirements.txt — Зависимости проекта
+
+data/
+- todo.db          — Файл SQLite
+
+__pycache__/
+- database.cpython-39.pyc
+- main.cpython-39.pyc
+- models.cpython-39.pyc
+   
+
+
