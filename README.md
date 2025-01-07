@@ -74,21 +74,15 @@ POST /items
 ---
 
 ## Структура проекта
+```
 todo_app/
-- database.py      — Конфигурация базы данных
-- Dockerfile       — Конфигурация Docker
-- main.py          — Основной файл приложения
-- models.py        — Модели базы данных
-- README.md        — Документация проекта
-- requirements.txt — Зависимости проекта
+├── main.py         # Основной файл приложения
+├── models.py       # Модели базы данных
+├── database.py     # Конфигурация базы данных
+├── requirements.txt # Зависимости проекта
+├── Dockerfile      # Конфигурация Docker
+└── data/           # Данные SQLite
 
-data/
-- todo.db          — Файл SQLite
-
-__pycache__/
-- database.cpython-39.pyc
-- main.cpython-39.pyc
-- models.cpython-39.pyc
    
 
 
