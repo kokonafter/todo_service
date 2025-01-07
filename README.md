@@ -63,13 +63,13 @@ POST /items
      "completed": false
    }
 Ответ:
-   '''json
-   
-    {
-    "title": "Новая задача",
-    "description": "Описание задачи",
-    "completed": false
-    }
+   ```json
+   {
+     "title": "Новая задача",
+     "description": "Описание задачи",
+     "completed": false
+   }
+```
 
 ---
 
