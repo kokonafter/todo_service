@@ -37,7 +37,7 @@ TODO Service — это REST API для управления списком за
    docker build -t todo-service .
 2. **Запустите контейнер:**
    ```bash
-   docker run -d -p 8000:80 -v todo_data:/app/data todo-service
+   docker run -d -p 8000:8000 -v todo_data:/app/data todo-service
 
 ---
 
@@ -65,6 +65,7 @@ POST /items
 **Ответ:**
    ```json
    {
+     "id": 1,
      "title": "Новая задача",
      "description": "Описание задачи",
      "completed": false
@@ -82,7 +83,3 @@ todo_app/
 ├── requirements.txt  # Зависимости проекта
 ├── Dockerfile        # Конфигурация Docker
 └── data/             # Данные SQLite
-
-   
-
-
